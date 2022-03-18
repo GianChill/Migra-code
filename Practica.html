@@ -1,0 +1,110 @@
+<!-- hacer una página que contenga encabezados, parrafos, etiqueta de autosalto de linea, etiqueta de lineado,
+listas, imagenes(con url y con descarga directa), con minimo 4 páginas(con links), con formularios(minimo 4)
+con un select, con diferentes inputs(text, submit y dos más)-->
+
+<!--A que ejercito te queres unir pibe (Alemania, Estados Unidos, Unión Sovietica, Reino Unido)-->
+<!-- 1. Encabezados, formularios(nombre, pais, motivación), mostrar los diferentes ejercitos(con las listas de lo 
+    bueno y malo y sus imagenes respectivas), inputs para seleccionar y poner links para ver un poco de la historia
+de todos ellos(otros links)-->
+
+
+<!-- las etiquetas tipo <br/> <meta/> cierran al reves, significa que no tienen que escribirse como las otras -->
+<!DOCTYPE html>
+<html lang ="es">
+
+<head>
+<meta charset="utf-8"/>
+<title>Elige tu ejercito</title>
+</head>
+
+<body>
+<!--Encabezado generico-->
+<h1>Elige a que ejercito serviras</h1>
+<h3>Información del cadete:</h3>
+<p>Completa la información con completa sinceridad, de lo contrario corre riesgo de fusilamiento...</p>
+
+<!-- empieza formulario-->
+<form>
+<label>Nombre</label>
+<input type="text">
+<br/>
+
+<label>Apellidos</label> 
+<input type = "text">
+<br/>
+
+<label>Pais de procedencia</label>
+<input type ="text"><br/>
+
+<label>Motivación para servir en el ejercito</label>
+<input type="text"> <br/>
+
+<input type ="submit" value="Enviar Todo">
+
+<hr>
+</form>
+
+<!--empiezan las imagenes, listas etc.-->
+<h2>Ejercitos con vacantes disponibles:</h2>
+<!--Ejercito alemán-->
+<h3>Ejercito alemán:</h3>
+<img src="Img/AlemanesSegundaGuerra.jpg" alt="AlemanesWW2" width="400" height="300">
+<img src="https://images-cdn.9gag.com/photo/aw7KPQ8_700b.jpg" alt="Hitler y la loli" width="400" height="300">
+<p>El ejercito alemán viene de alemania(el país con mayor cantidad de alemanes del mundo)
+tambíen hay que recordad que los alemanes vienen de alemania(dato importante por si te olvidas de donde es el ejercito alemán)</p>
+
+<h4>Pros</h4>
+<ul>
+<li>Es un buen ejercito</li>
+<li>Te dan pancito</li>
+<li>Visten chido</li>
+</ul>
+
+<h4>Contras</h4>
+<ul>
+    <li>No les puedes decir nada porque invaden tu país al día siguiente</li>
+    <li>No son humildes</li>
+    <li>A</li>
+</ul>
+
+<select> <!-- Listas/opciones desplegables-->
+<option value="SiDeseoServirAleman">Si deseo servir al ejercito Alemán</option> <!--Elementos de la lista-->
+<option value="NoDeseoServirAleman">No deseo servir al ejercito Alemán</option>
+<input type="submit" value="Mandar Datos"> 
+</select>
+<br/>
+
+<!--ejercito sovietico-->
+<h3>Ejercito Sovietico</h3>
+<img src="Img/Stalin.jpg" alt="UnionSovieticaSalvadora"
+width="400" height="300">
+<img src="https://historia.nationalgeographic.com.es/medio/2020/06/25/el-ejercito-rojo-durante-un-desfile-en-epoca-de-stalin_970f1883_1280x900.jpg" alt="EjercitoSovietico" width="400" height="300">
+
+<p>El ejercito sovietico se origino en la union sovietica por Lenin(Lenin)</p>
+<p>Aya hace frío porque no hace calor</p>
+
+<h4>Pros</h4>
+<ul>
+    <li>Vodka</li>
+    <li>Vodka</li>
+    <li>Vodka</li>
+    <li>Son bien basados porque pusieron a las personas homosexuales en un campo de concentración... <br/> 
+        -El que le dieron leche paterna</li>
+</ul>
+
+<h4>Contras</h4>
+<ul>
+    <li>Lamentablemente el socialismo no funcionó y todo se fue a la ñonga</li>
+    <li>Solo puedes tener una burra para aplicar la norteña  :(</li>
+    <li>Ellos inventaron al pepe y a ete sech</li>
+</ul>
+
+<select>
+<option value="SiDeseoServirSoviet">Si deseo servir al ejerctio sovietico/rojo</option>
+<option value="NoDeseoServirSoviet">No deseo servir al ejercito sovietico/rojo</option>
+<input type="submit" value="Mandar Datos">
+</select>
+</br>
+</body>
+
+</html>
